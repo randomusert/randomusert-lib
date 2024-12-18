@@ -2,5 +2,9 @@
 name = "randomusert-lib"
 version = "0.1.0"
 edition = "2021"
+authors = ["randomusert"]
+description = "a random library for hopefully make rust development easier"
+license = "MIT"
+repository = "https://github.com/randomusert/randomusert-lib"
 
 [dependencies]
