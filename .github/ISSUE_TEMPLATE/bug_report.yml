@@ -1,0 +1,21 @@
+name: Bug report
+description: open a nug report.
+title: "[Bug]:"
+labels: ["bug"]
+projects: ["randomusert/randomusert-lib"]
+assignees: 
+  - randomusert
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill this bur report!
+  - type: textarea
+    id: what-happened
+    attributes:
+       label: What happened?
+       description: what did you expect?
+       value: "A bug happened!"
+    validations:
+      required: true
+  

@@ -12,3 +12,5 @@ license = "MIT"
 repository = "https://github.com/randomusert/randomusert-lib"
 
 [dependencies]
+iced = "0.13.1"
+fancy_sys_info = "=0.1.2"
