@@ -1,0 +1,21 @@
+name: Feature request
+description: open a feature request.
+title: "[Feature request]:"
+labels: ["enhancement"]
+projects: ["randomusert/randomusert-lib"]
+assignees: 
+  - randomusert
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill this feature request!
+  - type: textarea
+    id: idea
+    attributes:
+       label: What is your feature idea?
+       description: feature request
+       value: "add a feature"
+    validations:
+      required: true
+  
