@@ -1,5 +1,5 @@
 name: Bug report
-description: open a nug report.
+description: open a bug report.
 title: "[Bug]:"
 labels: ["bug"]
 projects: ["randomusert/randomusert-lib"]
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill this bur report!
+        Please fill this bug report!
   - type: textarea
     id: what-happened
     attributes:
