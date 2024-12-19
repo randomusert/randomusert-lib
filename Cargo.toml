@@ -4,7 +4,7 @@ name = "randomusert_lib"
 
 [package]
 name = "randomusert-lib"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["randomusert"]
 description = "a random library for hopefully make rust development easier"
