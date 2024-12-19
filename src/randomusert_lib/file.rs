@@ -1,7 +1,7 @@
 use std::fs;
 use std::io::{self, Write};
 
-mod randomusert_lib {
+pub mod randomusert_lib {
     pub mod file {
         /// Reads the contents of a file from the given path.
         pub fn read_file(path: &str) -> io::Result<String> {
