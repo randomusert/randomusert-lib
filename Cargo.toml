@@ -16,6 +16,7 @@ repository = "https://github.com/randomusert/randomusert-lib"
 [dependencies]
 fancy_sys_info = "=0.1.2"
 tokio = { version = "1", features = ["full"] }
-hyper = "0.14"
+#hyper = "0.14"
+hyper = { version = "0.14", features = ["full"] }
 winapi = "0.3.9"
 x11 = "2.21.0"
