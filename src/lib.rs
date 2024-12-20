@@ -1,6 +1,6 @@
 pub mod randomusert_lib;
 
-mod platform;
+
 
 pub struct Window {
     title: String,
@@ -28,4 +28,4 @@ mod platform;
 #[cfg(target_os = "linux")]
 mod platform;
 #[cfg(target_os = "macos")]
-mod platform;
+eprintln!("not implemented!")
