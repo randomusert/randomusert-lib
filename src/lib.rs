@@ -18,7 +18,8 @@ impl Window {
     }
 
     pub fn show(&self) {
-        platform::create_window(&self.title, self.width, self.height);
+        //platform::create_window(&self.title, self.width, self.height);
+        eprintln!("disbaled, because issues!");
     }
 }
 
@@ -28,4 +29,4 @@ mod platform;
 #[cfg(target_os = "linux")]
 mod platform;
 #[cfg(target_os = "macos")]
-eprintln!("not implemented!")
+eprintln!("not implemented!");
