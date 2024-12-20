@@ -1,6 +1,6 @@
 pub mod randomusert_lib;
 
-use crate::platform;
+mod platform;
 
 pub struct Window {
     title: String,
