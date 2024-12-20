@@ -2,9 +2,8 @@ use hyper::service::{make_service_fn, service_fn};
 use hyper::{Body, Request, Response, Server};
 use std::net::SocketAddr;
 
-pub mod randomusert_lib {
-    
-    pub mod server {
+pub mod server;
+
         /// Starts an HTTP server on the specified address.
         pub async fn start_server(addr: SocketAddr, handler: fn(Request<Body>) -> Response<Body>) -> Result<(), hyper::Error> {
         // Create a service function
@@ -23,5 +22,3 @@ pub mod randomusert_lib {
         
             server.await
         }
-    }
-}
